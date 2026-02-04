@@ -1,0 +1,11 @@
+<div class="app-root" [class.dark-mode]="darkMode">
+  <div class="top-bar">
+    <button (click)="toggleDarkMode()">
+      {{ darkMode ? 'Light Mode' : 'Dark Mode' }}
+    </button>
+  </div>
+
+  <main class="app-content">
+    <router-outlet></router-outlet>
+  </main>
+</div>

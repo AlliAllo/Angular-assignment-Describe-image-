@@ -1,0 +1,39 @@
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0px;
+}
+
+:root {
+  --bg-color: #efedff;
+  --text-color: #000000;
+  --card-bg: #fff;
+  --button-bg: #e9e9ed;
+  --button-text: #000000;
+  --top-bar-bg: #eee;
+  --button-border: #444444;
+
+}
+
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f5f5f5;
+  --card-bg: #1e1e1e;
+  --button-bg: #e9e9ed;
+  --button-text: #000000;
+  --top-bar-bg: #1a1a1a;
+  --button-border: #444444;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

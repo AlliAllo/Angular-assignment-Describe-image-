@@ -1,0 +1,28 @@
+:host {
+  display: block;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background: var(--top-bar-bg);
+  position: sticky;
+  top: 0;
+}
+
+
+button {
+  background: #007bff;
+  color: var(--button-text);
+  border: 1px solid var(--button-border);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
